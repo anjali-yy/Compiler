@@ -1,0 +1,14 @@
+WRITELN(3);
+
+
+WRITELN(2 + 3 * 4);
+WRITELN(6 / 2 * 3);
+WRITELN(6 / (2 * 3));
+
+BEGIN
+    x := 2;
+    y := x + 1;
+    x := x + y;
+    WRITELN(x * y);
+END;
+.
